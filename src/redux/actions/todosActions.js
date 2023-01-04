@@ -1,4 +1,4 @@
-import { ADD_Task, CLEAR_ALL_TODO, DELETE_TASK, EDIT_TASK, FILTER, SEARCH_TASK } from "../constants/constTodos"
+import { ACTIVE_TASKS, ADD_Task, ALL_TASKS, CLEAR_ALL_TODO, COMPELETED_TASK, DELETE_TASK, EDIT_TASK, FILTER, SEARCH_TASK, SHOW_TASKS } from "../constants/constTodos"
 let nextTodoId = 0;
 export const addTask=(newTodo,newUser,newDate)=>{
 return{
@@ -44,3 +44,9 @@ export const editTask=(newItem)=>{
                 payload:idDone
             }
         }
+            export const showTasks =(payload)=>{
+                return{
+                    type: SHOW_TASKS,
+                    payload
+                }
+            }
