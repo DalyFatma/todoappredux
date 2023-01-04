@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+h3{
+  margin: 0;
+  size: 50px;
+}
+a{
+  text-decoration: none !important;
+  color: white;
+
+}
+label {
+  margin-left: 38px;
+  margin-top: 2px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+.row > * {
+  width: 100% !important;
+}
+
+.flex_Add{
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  flex-direction: column;
+  
+} 
+.filter-nav{
+  display: flex;
+  justify-content:space-between;
+}
+.search-btn{
+  display: flex;
+  align-items: center;
+}
+.search-flex{
+  display: flex;
+  margin-top: 30px;
+}
+
+
+
+
